@@ -1,0 +1,109 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+    <pattern>
+        hi
+    </pattern>
+    <template>
+        <random>
+            <li>Hello Abhi,How are you doing today?</li>
+            <li>hey Abhi,Welcome Back!</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>
+        hello
+    </pattern>
+    <template>
+        <random>
+            <li>Hello Abhi,How are you doing today?</li>
+            <li>hey Abhi,Welcome Back!</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>
+        hey
+    </pattern>
+    <template>
+        <random>
+            <li>Hello Abhi,How are you doing today?</li>
+            <li>hey Abhi,Welcome Back!</li>
+        </random>
+    </template>
+</category>
+<category>
+<pattern>
+am fine
+</pattern>
+<template>
+Glad to hear that!,am doing good as well,How can i help you today?
+</template>
+</category>
+<category>
+<pattern>
+whats the weather like today?
+</pattern>
+<template>
+It is 32 degree celsius today with a chance of rainfall.
+</template>
+</category>
+   <category>
+      <pattern>My dogs name is *</pattern>
+      <template>
+         That is interesting that you have a dog named <set name="dog"><star/></set>
+      </template>
+   </category>
+   <category>
+      <pattern>What is my dogs name</pattern>
+      <template>
+         Your dog's name is <get name="dog"/>.
+      </template>
+   </category>
+<category>
+      <pattern>My name is *</pattern>
+      <template>
+         Hello <set name="name"><star/></set>
+      </template>
+   </category>
+   <category>
+      <pattern>What is my name</pattern>
+      <template>
+         Your name is <get name="name"/>.
+      </template>
+   </category>
+<category>
+    <pattern>
+        what are you
+    </pattern>
+    <template>
+        <random>
+            <li>I thought u already know,I am a chatbot</li>
+            <li>I am a chat bot</li>
+        </random>
+    </template>
+</category>
+<category>
+<pattern>
+yo
+</pattern>
+<template>
+<srai>
+hey
+</srai>
+</template>
+</category>
+<category>
+<pattern>
+am fine and you?
+</pattern>
+<template>
+<srai>
+am fine
+</srai>
+</template>
+</category>
+
+
+
+</aiml>
